@@ -45807,7 +45807,7 @@ const JokeRatingSchema = z.object({
   humor_type: z.string().nullable().describe("The type of humor (e.g., pun, wordplay, dad joke, dark, etc)"),
   feedback: z.string().nullable().describe("Short feedback on the joke's strengths and weaknesses."),
 });
-npm 
+ 
 async function rateJoke(joke, token) {
   const endpoint = "https://models.github.ai/inference";
 
